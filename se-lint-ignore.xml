@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="the-adventures-of-king-brian-connors.xhtml">
+		<ignore>
+			<code>t-003</code>
+			<reason>closing double quote added at the end of multi-paragraph dialog that includes single-quoted text</reason>
+		</ignore>
+		<ignore>
+			<code>t-042</code>
+			<reason>closing double quote added at the end of multi-paragraph dialog that includes single-quoted text</reason>
+		</ignore>
+		<ignore>
+			<code>t-036</code>
+			<reason>closing double quote added at the end of multi-paragraph dialog that includes single-quoted text</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
