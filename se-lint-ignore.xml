@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
-	<file path="cover.jpg">
-		<ignore>
-			<code>s-051</code>
-			<reason>confirmed that the image is exactly 1400 × 2100 pixels</reason>
-		</ignore>
-	</file>
 	<file path="the-banshees-comb.xhtml">
 		<ignore>
 			<code>s-085</code>
