@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
+	<file path="cover.jpg">
+		<ignore>
+			<code>s-051</code>
+			<reason>confirmed that the image is exactly 1400 × 2100 pixels</reason>
+		</ignore>
+	</file>
+	<file path="the-banshees-comb.xhtml">
+		<ignore>
+			<code>s-085</code>
+			<reason>the file contains a short story, within which are chapters with a label, ordinal, and title and withing these chapters are numbered sections resulting in higher h# levels</reason>
+		</ignore>
+	</file>
 	<file path="the-adventures-of-king-brian-connors.xhtml">
 		<ignore>
 			<code>t-003</code>

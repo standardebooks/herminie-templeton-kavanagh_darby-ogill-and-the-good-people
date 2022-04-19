@@ -40,3 +40,12 @@ p span.i2{
 	padding-left: 3em;
 	text-indent: -1em;
 }
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}

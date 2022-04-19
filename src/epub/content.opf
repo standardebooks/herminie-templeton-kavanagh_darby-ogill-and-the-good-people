@@ -18,7 +18,9 @@
 		<link href="http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa" rel="dcterms:conformsTo"/>
 		<meta property="a11y:certifiedBy">Standard Ebooks</meta>
 		<meta property="schema:accessMode">textual</meta>
+		<!-- <meta property="schema:accessMode">visual</meta> -->
 		<meta property="schema:accessModeSufficient">textual</meta>
+		<!-- <meta property="schema:accessibilityFeature">alternativeText</meta> -->
 		<meta property="schema:accessibilityFeature">readingOrder</meta>
 		<meta property="schema:accessibilityFeature">structuralNavigation</meta>
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
@@ -28,43 +30,43 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Darby O’Gill and the Good People</dc:title>
 		<meta property="file-as" refines="#title">Darby O’Gill and the Good People</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">Ireland--Social life and customs--Fiction</dc:subject>
+		<dc:subject id="subject-2">Fairy tales--Ireland</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<meta property="term" refines="#subject-1">sh2008115515</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-2">sh2008103481</meta>
+		<meta property="se:subject">Childrens</meta>
+		<meta property="se:subject">Fantasy</meta>
+		<meta property="se:subject">Shorts</meta>
+		<dc:description id="description">When Tipperary man Darby O’Gill is imprisoned by the fairies of Sleive-na-mon in their home under the hollow mountain, it is the start of a lasting friendship with their King Brian Connors.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;When Tipperary man Darby O’Gill is imprisoned by the fairies of Sleive-na-mon in their home under the hollow mountain, it is the start of a lasting friendship with their King Brian Connors. Using the voice of a local story-teller, &lt;a href="https://standardebooks.org/ebooks/h-t-kavanaugh"&gt;Herminie Templeton Kavanagh&lt;/a&gt; shares this series of tales of Darby and King Bryan’s adventures. We follow Brian as his fairies are banished from Heaven for not taking sides as angels waged war against each other and we follow Darby to face the Banshee in Croaghmah, the realm of ghosts and the final destination of the spectral death coach driven by its headless horseman. We join Darby as he matches wits with the crafty Leprechaun and join King Bryan as he debates philosophy with parish priest Father Cassidy. Pious Christianity, superstition, and pagan folklore are each real and important elements of Darby’s life and world. Reconciling them is a persistent theme in Kavanaugh’s stories, one that was largely absent from the classic children’s film that it inspired.&lt;/p&gt;
 		</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:language>en-GB</dc:language>
+		<dc:source>https://en.wikisource.org/wiki/Darby_O%27Gill_and_the_Good_People</dc:source>
+		<dc:source>https://archive.org/details/darbyogillgoodpe00kavarich</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Darby_O%27Gill_and_the_Good_People</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/herminie-templeton-kavanagh_darby-ogill-and-the-good-people</meta>
 		<dc:creator id="author">Herminie Templeton Kavanagh</dc:creator>
 		<meta property="file-as" refines="#author">Kavanagh, Herminie Templeton</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Herminie_Templeton_Kavanagh</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/no96039489</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="writer-of-preface">William Allingham</dc:contributor>
+		<meta property="file-as" refines="#writer-of-preface">Allingham, William</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#writer-of-preface">https://en.wikipedia.org/wiki/William_Allingham</meta>
+		<meta property="role" refines="#writer-of-preface" scheme="marc:relators">wpr</meta>
+		<dc:contributor id="artist">George Inness</dc:contributor>
+		<meta property="file-as" refines="#artist">Inness, George</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/George_Inness</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79007221</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
-		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Paul King</dc:contributor>
+		<meta property="file-as" refines="#producer-1">King, Paul</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://kingrpaul.github.io/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -80,10 +82,13 @@
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
-		<item href="text/darby-Ogill-and-the-leprechaun.xhtml" id="darby-Ogill-and-the-leprechaun.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/darby-ogill-and-the-good-people.xhtml" id="darby-ogill-and-the-good-people.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/darby-ogill-and-the-leprechaun.xhtml" id="darby-ogill-and-the-leprechaun.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/forward.xhtml" id="forward.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/halftitlepage.xhtml" id="halftitlepage.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/how-the-fairies-came-to-ireland.xhtml" id="how-the-fairies-came-to-ireland.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-adventures-of-king-brian-connors.xhtml" id="the-adventures-of-king-brian-connors.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-banshees-comb.xhtml" id="the-banshees-comb.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-convarsion-of-father-cassidy.xhtml" id="the-convarsion-of-father-cassidy.xhtml" media-type="application/xhtml+xml"/>
@@ -94,12 +99,15 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
-		<itemref idref="darby-Ogill-and-the-leprechaun.xhtml"/>
+		<itemref idref="forward.xhtml"/>
+		<itemref idref="preface.xhtml"/>
+		<itemref idref="halftitlepage.xhtml"/>
 		<itemref idref="darby-ogill-and-the-good-people.xhtml"/>
+		<itemref idref="darby-ogill-and-the-leprechaun.xhtml"/>
+		<itemref idref="the-convarsion-of-father-cassidy.xhtml"/>
 		<itemref idref="how-the-fairies-came-to-ireland.xhtml"/>
 		<itemref idref="the-adventures-of-king-brian-connors.xhtml"/>
 		<itemref idref="the-banshees-comb.xhtml"/>
-		<itemref idref="the-convarsion-of-father-cassidy.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
