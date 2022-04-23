@@ -5,10 +5,6 @@
 			<code>s-085</code>
 			<reason>the file contains a short story, within which are chapters with a label, ordinal, and title and withing these chapters are numbered sections resulting in higher h# levels</reason>
 		</ignore>
-		<ignore>
-			<code>s-032</code>
-			<reason>subchapter type requested during review</reason>
-		</ignore>
 	</file>
 	<file path="the-adventures-of-king-brian-connors.xhtml">
 		<ignore>
