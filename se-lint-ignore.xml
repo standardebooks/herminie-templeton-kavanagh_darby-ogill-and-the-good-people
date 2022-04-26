@@ -15,9 +15,5 @@
 			<code>t-042</code>
 			<reason>closing double quote added at the end of multi-paragraph dialog that includes single-quoted text</reason>
 		</ignore>
-		<ignore>
-			<code>t-036</code>
-			<reason>closing double quote added at the end of multi-paragraph dialog that includes single-quoted text</reason>
-		</ignore>
 	</file>
 </se-lint-ignore>
