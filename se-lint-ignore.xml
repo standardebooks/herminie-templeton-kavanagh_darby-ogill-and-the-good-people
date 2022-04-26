@@ -6,14 +6,4 @@
 			<reason>the file contains a short story, within which are chapters with a label, ordinal, and title and withing these chapters are numbered sections resulting in higher h# levels</reason>
 		</ignore>
 	</file>
-	<file path="the-adventures-of-king-brian-connors.xhtml">
-		<ignore>
-			<code>t-003</code>
-			<reason>closing double quote added at the end of multi-paragraph dialog that includes single-quoted text</reason>
-		</ignore>
-		<ignore>
-			<code>t-042</code>
-			<reason>closing double quote added at the end of multi-paragraph dialog that includes single-quoted text</reason>
-		</ignore>
-	</file>
 </se-lint-ignore>
