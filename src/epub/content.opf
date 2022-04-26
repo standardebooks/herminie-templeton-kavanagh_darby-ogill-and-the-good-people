@@ -44,6 +44,7 @@
 		<dc:language>en-IE</dc:language>
 		<dc:source>https://en.wikisource.org/wiki/Darby_O%27Gill_and_the_Good_People</dc:source>
 		<dc:source>https://archive.org/details/darbyogillgoodpe00kavarich</dc:source>
+		<meta property="se:production-notes">Some archaic spellings and hyphenations have been retained as a matter of prose style.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Darby_O%27Gill_and_the_Good_People</meta>
