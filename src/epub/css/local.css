@@ -6,16 +6,6 @@ footer{
 	text-align: right;
 }
 
-p span.i1{
-	padding-left: 2em;
-	text-indent: -1em;
-}
-
-p span.i2{
-	padding-left: 3em;
-	text-indent: -1em;
-}
-
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
@@ -41,4 +31,14 @@ p span.i2{
 [epub|type~="z3998:song"] p > span + br,
 [epub|type~="z3998:poem"] p > span + br{
 	display: none;
+}
+
+p span.i1{
+	padding-left: 2em;
+	text-indent: -1em;
+}
+
+p span.i2{
+	padding-left: 3em;
+	text-indent: -1em;
 }
