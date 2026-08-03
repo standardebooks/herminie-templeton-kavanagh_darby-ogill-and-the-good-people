@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/herminie-templeton-kavanagh/darby-ogill-and-the-good-people</dc:identifier>
 		<dc:date>2022-04-26T01:39:55Z</dc:date>
@@ -40,10 +40,10 @@
 		<meta property="schema:genre">Fantasy</meta>
 		<meta property="schema:genre">Shorts</meta>
 		<meta property="schema:additionalType">http://schema.org/Collection</meta>
-		<dc:description id="description">When Tipperary man Darby O’Gill is imprisoned by the fairies of Sleive-na-mon in their home under the hollow mountain, he starts a lasting friendship with their King Brian Connors.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>When Tipperary man Darby O’Gill is imprisoned by the fairies of Sleive-na-mon in their home under the hollow mountain, he starts a lasting friendship with their King Brian Connors.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;When Tipperary man Darby O’Gill is imprisoned by the fairies of Sleive-na-mon in their home under the hollow mountain, he starts a lasting friendship with their King Brian Connors. Using the voice of a local story-teller, &lt;a href="https://standardebooks.org/ebooks/herminie-templeton-kavanagh"&gt;Herminie Templeton Kavanagh&lt;/a&gt; shares this series of tales of Darby and King Brian’s adventures. We follow Brian as his fairies are banished from Heaven for not taking sides as angels wage war against each other, and we follow Darby to face the Banshee in Croaghmah, the realm of ghosts and the final destination of the spectral death coach driven by its headless horseman. We join Darby as he matches wits with the crafty Leprechaun, and join King Brian as he debates philosophy with parish priest Father Cassidy. Pious Christianity, superstition, and pagan folklore are each real and important elements of Darby’s life and world. Reconciling them is a persistent theme in Kavanagh’s stories, one that was largely absent from the classic children’s film that it inspired.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-IE</dc:language>
 		<dc:source>https://en.wikisource.org/wiki/Darby_O%27Gill_and_the_Good_People</dc:source>
 		<dc:source>https://archive.org/details/darbyogillgoodpe00kavarich</dc:source>
